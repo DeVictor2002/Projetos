@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/javascript/scripts.js"></script>
+    <title>Previsão do tempo</title>
+</head>
+<body>
+    <div class="container">
+        <input class="city-input" placeholder="Digite o nome da cidade">
+        <button class="search-button" onclick="clickOnButton()">
+            <img class="img-search" src="src/imgs/procurar.png">
+        </button>
+
+        <div class="container-temp">
+            <h2 class="tittle">São Paulo</h2>
+
+            <p class="temp">21ºC</p>
+        
+            <div class="container-climate">
+                <img class="forecast-img" src="https://openweathermap.org/img/wn/04n.png" alt="Ícone do tempo">              <p class="forecast-text">Nublado</p>
+            </div>
+            <p class="humidity">Umidade: 80%</p>
+        </div>
+    </div>
+</body>
+</html>
