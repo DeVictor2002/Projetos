@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/global.css">
+    <title>Formulário - FIAP</title>
+</head>
+<body>
+    <div id="tittle">
+        <h1>FIAP</h1>
+    </div>
+    
+    <div id="container">
+        <div id="inputs-container">
+            <div id="inputs-name">
+                <input type="text" placeholder="Digite o seu nome" class="name" required>
+                <input type="text" placeholder="Digite o seu sobrenome" class="secondary-name" required>
+            </div>
+
+            <input type="text" name="birthDate" class="birthDate" placeholder="Data de nascimento" required>
+            
+            <input type="email" name="email" class="email" placeholder="Digite seu email" required>
+
+            <input type="password" name="password" class="password" placeholder="Palavra-passe" required>
+
+            <input type="password" name="password" class="password" placeholder="Repita a palavra-passe" required>
+
+            <select class="courses">
+                <option value="" disabled selected>Selecione o curso</option>
+                <option value="eng-soft">Engenharia de Software</option>
+                <option value="eng-comp">Engenharia da Computação</option>
+                <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                <option value="sistemas-info">Sistemas de Informação</option>
+                <option value="data-science">Data Science</option>
+                <option value="comp-nuvem">Computação em Nuvem</option>
+                <option value="defesa-ciber">Defesa Cibernética</option>
+                <option value="dev-game">Game Development</option>
+                <option value="ia">Inteligência Artificial</option>
+            </select>
+
+            <div id="container-btn">
+                <button class="btn">Avançar</button>
+            </div>
+        </div>
+    </div>
+    <script src="src/javascript/scripts.js"></script>
+</body>
+</html>
