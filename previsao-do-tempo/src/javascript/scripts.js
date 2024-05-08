@@ -1,5 +1,5 @@
 
-const key = "62d50ff2cb7ca5fd25d288e993fad686";
+const key = "**********************************";
 
 function viewData(data) {
     document.querySelector('.tittle').innerHTML = data.name + ", " + data.sys.country;
