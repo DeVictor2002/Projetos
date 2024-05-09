@@ -12,4 +12,4 @@ document.addEventListener("DOMContentLoaded", function() {
             formattedValue = value.replace(/\D/g, '').slice(0, 2) + '/' + value.replace(/\D/g, '').slice(2, 4) + '/' + value.replace(/\D/g, '').slice(4, 8);
         }
         this.value = formattedValue;
-    })})
+    })});
